@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+}
+.bkg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: -100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(3px);
+    margin-bottom: 0;
+}
+.currentTime,
+.duration {
+    color: white;
+}
+.duration {
+    position: absolute;
+    right: 11%;
+    bottom: 80px;
+}
+.plr-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+.player-pic {
+    position: absolute;
+    width: 105%;
+    top: -7px;
+}
+.controls {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    bottom: -17%;
+    background: linear-gradient(black, #06275c)
+}
+.play-btn {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    background-color: transparent;
+}
+.prev-btn,
+.next-btn {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    background-color: transparent;
+}
+.artist {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(133, 129, 129);
+    /* color: #785f06; */
+}
+.song {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.control-btns {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.info {
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px; */
+    padding-left: 20px;
+}
+.scroll {
+    margin-top: 25px;
+    appearance: none;
+    height: 3px;
+    border-radius: 3px;
+    width: 200%;
+    bottom: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 100%;
+    background-color: white;
+}
+footer > img {
+    background-color: transparent;
+}
